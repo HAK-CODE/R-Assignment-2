@@ -83,6 +83,17 @@ View(highest_earning_procedure)
 paste("Highest earning procedure is",(highest_earning_procedure$Procedure[which(highest_earning_procedure$TotalCharges == max(highest_earning_procedure$TotalCharges))]), "worth of",max(highest_earning_procedure$TotalCharges))
 
 #8. Which time of the day has highest frequency of visits by hour? 
+#It its only about number of highes frequency
+#"01:00 PM" "01:30 PM" "03:00 PM" "12:00 PM"
+high_time_repeated <- df %>%
+                      filter(!is.na(Time)) %>%
+                      group_by(Time) %>%
+                      tally() %>%
+                      arrange(desc(n))
+View(high_time_repeated)
+high_time_repeated$Time[high_time_repeated$n == max(high_time_repeated$n)]
+
+#If your are talking about particular day
 high_frequency_time <-  df %>%
                         filter(!is.na(Date), !is.na(Time)) %>%
                         group_by(Date,Time) %>%
@@ -100,6 +111,18 @@ visitor <-  df %>%
             arrange(desc(n))
 View(visitor)
 paste("Number of repeated visitors are", count(visitor))
+
+#9. Create a bracket of time by Morning, Afternoon, Evening, Night (6am - 12pm - Morning, 12 pm- 4 pm, Afternoon, 4 pm- 7pm, Evening, 7pm - 6 am, Night). 
+timeFrame <- function(x){
+  if( (strptime(x, "%I:%M %p") >= strptime("6:00 AM", "%I:%M %p")) & (strptime(x, "%I:%M %p") <= strptime("12:00 PM", "%I:%M %p")))
+  {
+    return("Morning")
+  }
+  return("Wrong")
+}
+df %>%
+  mutate(Morning = timeFrame(Time)) %>%
+  View()
 
 #11. Give us the id of repeated visitors.
 #Data is take from above 

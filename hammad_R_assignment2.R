@@ -103,6 +103,19 @@ View(high_frequency_time)
 indexOfMax <- which(high_frequency_time$n == max(high_frequency_time$n))
 paste("Highest number of visits were on",weekdays(high_frequency_time$Date[indexOfMax]),"at",format(high_frequency_time$Time[indexOfMax]))
 
+
+#9. Create a bracket of time by Morning, Afternoon, Evening, Night (6am - 12pm - Morning, 12 pm- 4 pm, Afternoon, 4 pm- 7pm, Evening, 7pm - 6 am, Night). 
+
+hour(strptime(df$Time, "%I:%M %p"))
+df %>%
+  mutate(TimeBracket = ifelse(hour(strptime(df$Time, "%I:%M %p")) >= 6 & hour(strptime(df$Time, "%I:%M %p")) <= 12, "Morning",
+                              ifelse(hour(strptime(df$Time, "%I:%M %p")) > 12 & hour(strptime(df$Time, "%I:%M %p")) <= 16, "Afternoon",
+                                     ifelse(hour(strptime(df$Time, "%I:%M %p")) > 16 & hour(strptime(df$Time, "%I:%M %p")) <= 19, "Evening",
+                                            ifelse(hour(strptime(df$Time, "%I:%M %p")) > 19, "Night", NA))))) %>%
+  View()
+
+
+
 #10. How many patients are repeated visitors?  
 visitor <-  df %>%
             group_by(id) %>%
@@ -112,17 +125,6 @@ visitor <-  df %>%
 View(visitor)
 paste("Number of repeated visitors are", count(visitor))
 
-#9. Create a bracket of time by Morning, Afternoon, Evening, Night (6am - 12pm - Morning, 12 pm- 4 pm, Afternoon, 4 pm- 7pm, Evening, 7pm - 6 am, Night). 
-timeFrame <- function(x){
-  if( (strptime(x, "%I:%M %p") >= strptime("6:00 AM", "%I:%M %p")) & (strptime(x, "%I:%M %p") <= strptime("12:00 PM", "%I:%M %p")))
-  {
-    return("Morning")
-  }
-  return("Wrong")
-}
-df %>%
-  mutate(Morning = timeFrame(Time)) %>%
-  View()
 
 #11. Give us the id of repeated visitors.
 #Data is take from above 

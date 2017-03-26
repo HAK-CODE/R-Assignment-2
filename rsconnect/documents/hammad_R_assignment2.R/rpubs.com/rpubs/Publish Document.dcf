@@ -1,0 +1,8 @@
+name: Publish Document
+title:
+account: rpubs
+server: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/262081/76c1330f848e42a1ac1c57c8d3598d90
+bundleId: https://api.rpubs.com/api/v1/document/262081/76c1330f848e42a1ac1c57c8d3598d90
+url: http://rpubs.com/HAK_DEV/262081
+when: 1490556257.76428

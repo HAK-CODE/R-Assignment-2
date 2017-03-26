@@ -118,7 +118,7 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">hammad_R_assignment2.R</h1>
 <h4 class="author"><em>HAK</em></h4>
-<h4 class="date"><em>Sun Mar 26 18:25:48 2017</em></h4>
+<h4 class="date"><em>Mon Mar 27 00:23:00 2017</em></h4>
 
 </div>
 
@@ -257,7 +257,29 @@ View(high_frequency_time)
 indexOfMax &lt;- which(high_frequency_time$n == max(high_frequency_time$n))
 paste(&quot;Highest number of visits were on&quot;,weekdays(high_frequency_time$Date[indexOfMax]),&quot;at&quot;,format(high_frequency_time$Time[indexOfMax]))</code></pre>
 <pre><code>## [1] &quot;Highest number of visits were on Wednesday at 02:40 PM&quot;</code></pre>
-<pre class="r"><code>#10. How many patients are repeated visitors?  
+<pre class="r"><code>#9. Create a bracket of time by Morning, Afternoon, Evening, Night (6am - 12pm - Morning, 12 pm- 4 pm, Afternoon, 4 pm- 7pm, Evening, 7pm - 6 am, Night). 
+
+hour(strptime(df$Time, &quot;%I:%M %p&quot;))</code></pre>
+<pre><code>##   [1] 11 10 12 13 14 15 15 15 15 17 17 17 13 15 18 23 12 20 20 12 14 14 12
+##  [24] 13 13 NA 20 NA 12 13 14 15 17 17 15 18 NA NA 15 16 16 10 14 14 11 15
+##  [47] 20 16 18 21 NA 13 18 18 11 11 13 15 18 21 12 14 17 NA 11 NA NA NA 10
+##  [70] 13 13 12 13 13 16 13 13 14 13 NA NA 12 15 17 NA NA NA NA 18 21 NA 13
+##  [93] 13 17 17 18 17 18 18 14 14 13 13 18 12 13 13 16 20 16 16 19 19 13 13
+## [116] 16 18 12 13 14 18 20 10 12 12 14 14 14 10  9 18 19 12 16 17 18 19 12
+## [139] 11 15 19 NA 14 15 19 11 16 18 16 17 18 18 18 11 14 NA 13 14 19 22 13
+## [162] 18 19 22 NA 15 16 17 13 13 14 15 21 15 16 11 12 NA 22 12 NA 15 20 17
+## [185] 18 NA 19 19 12 15 19 NA 11 12 13 16 17 14 NA 13 17 19 NA 15 NA 19 14
+## [208] 21 20 22 16 18 12 19 12  9 NA NA 15 18 10 23</code></pre>
+<pre class="r"><code>df %&gt;%
+  mutate(TimeBracket = ifelse(hour(strptime(df$Time, &quot;%I:%M %p&quot;)) &gt;= 6 &amp; hour(strptime(df$Time, &quot;%I:%M %p&quot;)) &lt;= 12, &quot;Morning&quot;,
+                              ifelse(hour(strptime(df$Time, &quot;%I:%M %p&quot;)) &gt; 12 &amp; hour(strptime(df$Time, &quot;%I:%M %p&quot;)) &lt;= 16, &quot;Afternoon&quot;,
+                                     ifelse(hour(strptime(df$Time, &quot;%I:%M %p&quot;)) &gt; 16 &amp; hour(strptime(df$Time, &quot;%I:%M %p&quot;)) &lt;= 19, &quot;Evening&quot;,
+                                            ifelse(hour(strptime(df$Time, &quot;%I:%M %p&quot;)) &gt; 19, &quot;Night&quot;, NA))))) %&gt;%
+  View()
+
+
+
+#10. How many patients are repeated visitors?  
 visitor &lt;-  df %&gt;%
             group_by(id) %&gt;%
             tally() %&gt;%
@@ -266,19 +288,6 @@ visitor &lt;-  df %&gt;%
 View(visitor)
 paste(&quot;Number of repeated visitors are&quot;, count(visitor))</code></pre>
 <pre><code>## [1] &quot;Number of repeated visitors are 37&quot;</code></pre>
-<pre class="r"><code>#9. Create a bracket of time by Morning, Afternoon, Evening, Night (6am - 12pm - Morning, 12 pm- 4 pm, Afternoon, 4 pm- 7pm, Evening, 7pm - 6 am, Night). 
-timeFrame &lt;- function(x){
-  if( (strptime(x, &quot;%I:%M %p&quot;) &gt;= strptime(&quot;6:00 AM&quot;, &quot;%I:%M %p&quot;)) &amp; (strptime(x, &quot;%I:%M %p&quot;) &lt;= strptime(&quot;12:00 PM&quot;, &quot;%I:%M %p&quot;)))
-  {
-    return(&quot;Morning&quot;)
-  }
-  return(&quot;Wrong&quot;)
-}
-df %&gt;%
-  mutate(Morning = timeFrame(Time)) %&gt;%
-  View()</code></pre>
-<pre><code>## Warning in if ((strptime(x, &quot;%I:%M %p&quot;) &gt;= strptime(&quot;6:00 AM&quot;, &quot;%I:%M %p&quot;))
-## &amp; : the condition has length &gt; 1 and only the first element will be used</code></pre>
 <pre class="r"><code>#11. Give us the id of repeated visitors.
 #Data is take from above 
 View(visitor)

@@ -1,0 +1,223 @@
+"","Date","id","Time","Age","Sex","ConsultingDoctor","Specialty","Procedure","TotalCharges","AmountReceived","AmountBalance","AmountReceivedBy","AmountinHospital","ReceptionistName","NextApt"
+"1",2017-01-01,101,"11:00 AM",40,"F","Dr Kinza Alam","Gynae","C Section",30000,30000,NA,"Mrs Shamsa",NA,"Hamza",NA
+"2",2017-01-02,150,"10:45 AM",26,"M","Nursing Staff",NA,"Dressing",1500,1500,NA,"Dr Saniya",NA,"Haris",NA
+"3",2017-01-02,58,"12:38 PM",30,"F","Dr Riffat Naheed","Psychotherapist","Consultation",1000,1000,NA,"Mrs Shamsa",300,"Fiza",NA
+"4",2017-01-02,75,"01:00 PM",40,"M","Dr Riffat Naheed","Psychotherapist","Consultation",1500,1500,NA,"Mrs Shamsa",450,"Zaheer",NA
+"5",2017-01-02,97,"02:45 PM",27,"M","Dr Riffat Naheed","Psychotherapist","Consultation",2000,2000,NA,"Mrs Shamsa",600,"Haris",NA
+"6",2017-01-02,101,"03:00 PM",40,"F","Dr Kinza Alam","Gynae","C Section",35000,35000,NA,"Dr Saniya",NA,"Haris",NA
+"7",2017-01-02,26,"03:28 PM",43,"M","Dr Saniya","M/o","Consultation",2000,2000,NA,"Dr Saniya",NA,"Fiza",NA
+"8",2017-01-02,149,"03:45 PM",28,"F","Dr Fakiha","Dentist","Consultation",500,500,NA,"Mrs Shamsa",500,"Haris",NA
+"9",2017-01-02,20,"03:45 PM",2,"F","Dr Fakiha","Dentist","Consultation",NA,NA,NA,NA,NA,NA,NA
+"10",2017-01-02,72,"05:00 PM",40,"M","Dr Fakiha","Dentist","Consultation",500,500,NA,"Mrs Shamsa",500,"Fiza",NA
+"11",2017-01-02,54,"05:00 PM",32,"F","Dr Saniya","M/o","Consultation",2000,2000,NA,"Dr Saniya",NA,"Fiza",NA
+"12",2017-01-02,149,"05:30 PM",28,"F","Dr Fakiha","Dentist","Filling",2000,2000,NA,"Mrs Shamsa",2000,"Fiza","In case of pain"
+"13",2017-01-03,120,"01:00 PM",76,"F","Dr Saniya","M/o","Laboratory Test",NA,NA,NA,NA,NA,"Haris",NA
+"14",2017-01-03,120,"03:25 PM",75,"F","Dr Saniya","M/o",NA,NA,NA,NA,NA,NA,NA,NA
+"15",2017-01-03,20,"06:10 PM",36,"F","Dr Kinza Alam","Gynae","Consultation",1500,1500,NA,"Mrs Shamsa",450,"Haris",NA
+"16",2017-01-04,40,"11:45 PM",42,"F","Dr Alaf Khan","Dentist","Consultation+Denture",1500,1500,NA,"Brig Farrukh",NA,"Fiza",NA
+"17",2017-01-04,134,"12:40 PM",23,"F","Dr Alaf Khan","Dentist","Consultation",500,500,NA,"Brig Farrukh",500,"Fiza",NA
+"18",2017-01-04,86,"08:10 PM",48,"F","Dr Kinza Alam","Gynae","Consultation",1500,1500,NA,"Brig Farrukh",450,"Haris",NA
+"19",2017-01-04,114,"08:30 PM",25,"F","Dr Kinza Alam","Gynae","Consultation",1000,1000,NA,"Brig Farrukh",300,"Haris",NA
+"20",2017-01-05,155,"12:40 PM",50,"F","Dr Alaf Khan","Dentist","Extraction",2000,2000,NA,"Brig Farrukh",2000,"Fiza",NA
+"21",2017-01-05,45,"02:00 PM",60,"F","Dr Alaf Khan","Dentist","R.P.D + Crown",4000,4000,NA,"Brig Farrukh",4000,"Haris",NA
+"22",2017-01-05,4,"02:00 PM",NA,"M","Dr Irfan","General Surgeon","Consultation + Dressing",5000,5000,NA,"Brig Farrukh",4000,"Haris",NA
+"23",2017-01-06,38,"12:30 PM",NA,"M","Dr Riffat Naheed","Psychotherapist","Consultation",1000,1000,NA,"Mrs Shamsa",300,"Haris",NA
+"24",2017-01-06,130,"01:00 PM",26,"M","Dr Riffat Naheed","Psychotherapist","Consultation",1000,1000,NA,"Mrs Shamsa",300,"Haris",NA
+"25",2017-01-06,97,"01:30 PM",27,"M","Dr Riffat Naheed","Psychotherapist","Consultation",1000,1000,NA,"Mrs Shamsa",300,"Haris",NA
+"26",2017-01-06,50,NA,NA,"M","Dr Alaf Khan","Dentist","Consultation",500,500,NA,"Mrs Shamsa",500,"Haris",NA
+"27",2017-01-06,78,"08:15 PM",57,"F","Dr Ali","Orthopedic","Consultation",6000,6000,NA,"Mrs Shamsa",3000,"Haris",NA
+"28",2017-01-07,1,NA,NA,NA,"Nursing Staff",NA,"Pharmacy",NA,NA,NA,NA,NA,NA,NA
+"29",2017-01-09,48,"12:36 PM",39,"F","Dr Alaf Khan","Dentist","Consultation",500,500,NA,"Mrs Shamsa",500,"Fiza",NA
+"30",2017-01-09,79,"01:30 PM",6,"F","Dr Alaf Khan","Dentist","Consultation",500,500,NA,"Mrs Shamsa",500,"Fiza",NA
+"31",2017-01-09,116,"02:30 PM",26,"M","Dr Alaf Khan","Dentist","X Ray",300,300,NA,"Mrs Shamsa",300,"Haris",NA
+"32",2017-01-09,45,"03:15 PM",60,"F","Dr Alaf Khan","Dentist","R.P.D + Crown",7000,7000,NA,"Mrs Shamsa",7000,"Fiza",NA
+"33",2017-01-09,67,"05:20 PM",26,"M","Dr Alaf Khan","Dentist","Consultation+X Ray",800,800,NA,"Mrs Shamsa",800,"Fiza",NA
+"34",2017-01-09,36,"05:30 PM",5,"F","Dr Alaf Khan","Dentist","Consultation",250,250,NA,"Mrs Shamsa",250,"Fiza",NA
+"35",2017-01-10,17,"03:50 PM",40,"M","Dr Alaf Khan","Dentist","RCT (4 teeth) Bridge (9 teeth)",10000,10000,NA,"Mrs Shamsa",NA,"Fiza","1/16/2017"
+"36",2017-01-10,84,"06:00 PM",9,"F","Dr Irfan","General Surgeon","Consultation +   X Ray",3000,3000,NA,"Mrs Shamsa",3000,"Mona",NA
+"37",2017-01-10,1,NA,NA,NA,"Nursing Staff",NA,"Pharmacy",NA,NA,NA,NA,NA,NA,NA
+"38",2017-01-11,57,NA,30,"F","Dr Alaf Khan","Dentist","Laboratory Test",NA,NA,NA,"Mrs Shamsa",NA,NA,NA
+"39",2017-01-11,119,"03:00 PM",40,"F","Dr Ammara","Gynae","Consultation + USG",1500,1500,NA,"Mrs Shamsa",500,"Fiza",NA
+"40",2017-01-11,145,"04:30 PM",29,"M","Dr Alaf Khan","Dentist","Crown",3000,3000,NA,"Mrs Shamsa",NA,"Fiza",NA
+"41",2017-01-11,92,"04:30 PM",39,"F","Dr Alaf Khan","Dentist","Consultation",500,500,NA,"Mrs Shamsa",500,"Fiza",NA
+"42",2017-01-12,63,"10:45 AM",50,"M","Dr Alaf Khan","Dentist","Consultation",500,500,NA,"Mrs Shamsa",500,"Fiza",NA
+"43",2017-01-12,63,"02:00 PM",50,"M","Dr Alaf Khan","Dentist","Scalling",3000,3000,NA,"Mrs Shamsa",3000,"Fiza",NA
+"44",2017-01-12,63,"02:00 PM",50,"M","Brig Asif","Medical Specialist","Consultation",500,500,NA,"Mrs Shamsa",150,"Fiza",NA
+"45",2017-01-13,45,"11:20 AM",60,"F","Dr Alaf Khan","Dentist","Polishing",500,500,NA,"Mrs Shamsa",500,"Haris",NA
+"46",2017-01-13,145,"03:00 PM",29,"M","Dr Fakiha","Dentist","Crown",1500,1500,NA,"Mrs Shamsa",1500,"Fiza",NA
+"47",2017-01-13,70,"08:00 PM",48,"M","Brig Farrukh","Anaesthetist","Consultation",3750,3750,NA,"Dr Ammad",3750,"Mona",NA
+"48",2017-01-14,88,"04:30 PM",45,"F","Dr Fakiha","Dentist","Filling + X Rays",2600,2600,NA,"Dr Ammad",2600,"Haris",NA
+"49",2017-01-14,40,"06:30 PM",42,"F","Dr Fakiha","Dentist","Denture+Scalling+Filling",5500,5500,NA,"Dr Ammad",5500,"Haris",NA
+"50",2017-01-15,42,"09:00 PM",29,"F","Nursing Staff",NA,"Pharmacy",900,900,NA,"Dilshad",900,"Zaheer",NA
+"51",2017-01-16,7,NA,26,"M","Nursing Staff",NA,"Laboratory Test",NA,NA,NA,NA,NA,NA,NA
+"52",2017-01-16,106,"01:30 PM",34,"M","Dr Alaf Khan","Dentist","Crown",5000,5000,NA,"Dr Ammad",5000,"Fiza",NA
+"53",2017-01-16,22,"06:00 PM",50,"F","Dr Zubair","M/o","Consultation",1000,1000,NA,"Dr Ammad",400,"Haris",NA
+"54",2017-01-16,88,"06:20 PM",45,"F","Dr Fakiha","Dentist","Extraction",2500,2500,NA,"Dr Ammad",2500,"Haris","1/23/2017"
+"55",2017-01-17,52,"11:25 AM",30,"M","Dr Alaf Khan","Dentist","RCT",3000,3000,NA,"Mrs Shamsa",3000,"Fiza","1/20/2017"
+"56",2017-01-17,17,"11:15 AM",40,"M","Dr Alaf Khan","Dentist","RCT (4 teeth) Bridge (9 teeth)",38000,38000,NA,"Mrs Shamsa",38000,"Fiza",NA
+"57",2017-01-17,17,"01:10 PM",40,"M","Brig Asif","Medical Specialist","Consultation",1000,1000,NA,"Mrs Shamsa",300,"Haris",NA
+"58",2017-01-17,136,"03:30 PM",29,"M","Dr Fakiha","Dentist","Scalling",4000,4000,NA,"Mrs Shamsa",4000,"Fiza",NA
+"59",2017-01-17,27,"06:15 PM",27,"M","Dr Fakiha","Dentist","Filling",2000,2000,NA,"Mrs Shamsa",2000,"Sohaib","1/19/2017"
+"60",2017-01-18,71,"09:40 PM",23,"M","Dr Alaf Khan","Dentist","X Ray",300,300,NA,NA,300,"Haris",NA
+"61",2017-01-18,12,"12:00 PM",60,"F","Dr Alaf Khan","Dentist","22 Unit Bridge",25500,25500,NA,NA,25500,"Haris",NA
+"62",2017-01-18,127,"02:00 PM",52,"F","Dr Alaf Khan","Dentist","Extraction",1000,1000,NA,NA,1000,"Haris",NA
+"63",2017-01-18,82,"05:00 PM",21,"M","Dr Zubair","M/o","Consultation",500,500,NA,NA,500,"Haris",NA
+"64",2017-01-19,103,NA,32,"M","Nursing Staff",NA,"Laboratory Test",NA,NA,NA,NA,NA,NA,NA
+"65",2017-01-19,31,"11:00 AM",58,"F","Dr Alaf Khan","Dentist","Consultation",500,500,NA,"Mrs Shamsa",500,"Haris",NA
+"66",2017-01-19,1,NA,NA,NA,"Nursing Staff",NA,"Pharmacy",NA,NA,NA,NA,NA,NA,NA
+"67",2017-01-19,1,NA,NA,NA,"Nursing Staff",NA,"Pharmacy",NA,NA,NA,NA,NA,NA,NA
+"68",2017-01-20,1,NA,NA,NA,"Nursing Staff",NA,"Pharmacy",NA,NA,NA,NA,NA,NA,NA
+"69",2017-01-21,131,"10:15 AM",26,"F","Dr Alaf Khan","Dentist","X Ray",300,300,NA,"Mrs Shamsa",300,"Haris",NA
+"70",2017-01-21,101,"01:20 PM",40,"F","Dr Kinza Alam","Gynae","Consultation",1200,1200,NA,"Mrs Shamsa",360,"Haris",NA
+"71",2017-01-21,145,"01:30 PM",29,"M","Dr Fakiha","Dentist","Crown",500,500,NA,"Mrs Shamsa",500,"Haris",NA
+"72",2017-01-23,144,"12:15 PM",33,"M","Dr Riffat Naheed","Psychotherapist","Consultation",1000,1000,NA,"Mrs Shamsa",300,"Haris",NA
+"73",2017-01-23,37,"01:00 PM",30,"F","Dr Riffat Naheed","Psychotherapist","Consultation",1000,1000,NA,"Mrs Shamsa",300,"Haris",NA
+"74",2017-01-23,135,"01:15 PM",28,"F","Dr Riffat Naheed","Psychotherapist","Consultation",2000,2000,NA,"Mrs Shamsa",600,"Haris",NA
+"75",2017-01-23,59,"04:50 PM",10,"M","Dr Ali","Child Specialist","Consultation+ER Retain",2800,2800,NA,"Mrs Shamsa",1600,"Haris",NA
+"76",2017-01-24,130,"01:00 PM",26,"M","Dr Riffat Naheed","Psychotherapist","Consultation",800,800,NA,"Mrs Shamsa",240,"Haris",NA
+"77",2017-01-24,104,"01:15 PM",19,"M","Dr Riffat Naheed","Psychotherapist","Consultation",2000,2000,NA,"Mrs Shamsa",600,"Haris",NA
+"78",2017-01-24,98,"02:10 PM",53,"F","Dr Saad","Orthopedic","Consultation",1000,1000,NA,"Mrs Shamsa",600,"Haris",NA
+"79",2017-01-24,102,"01:30 PM",30,"M","Dr Riffat Naheed","Psychotherapist","Consultation",1000,1000,NA,"Mrs Shamsa",300,"Haris",NA
+"80",2017-01-25,59,NA,10,"M","Nursing Staff",NA,"Laboratory Test",NA,NA,NA,NA,NA,NA,NA
+"81",2017-01-25,1,NA,NA,NA,"Nursing Staff",NA,"Pharmacy",NA,NA,NA,NA,NA,NA,NA
+"82",2017-01-26,73,"12:50 PM",55,"M","Dr Alaf Khan","Dentist","Consultation+X Ray",700,700,NA,NA,700,"Haris",NA
+"83",2017-01-26,116,"03:30 PM",26,"M","Dr Alaf Khan","Dentist","X Ray",300,300,NA,NA,300,"Haris",NA
+"84",2017-01-26,125,"05:40 PM",30,"F","Dr Alaf Khan","Dentist","Consultation",500,500,NA,NA,500,"Haris",NA
+"85",2017-01-26,1,NA,NA,NA,"Nursing Staff",NA,"Pharmacy",NA,NA,NA,NA,NA,NA,NA
+"86",2017-01-26,1,NA,NA,NA,"Nursing Staff",NA,"Pharmacy",NA,NA,NA,NA,NA,NA,NA
+"87",2017-01-26,1,NA,NA,NA,"Nursing Staff",NA,"Pharmacy",NA,NA,NA,NA,NA,NA,NA
+"88",2017-01-28,129,NA,28,"M","Dr Ali","Child Specialist","Consultation",1150,1150,NA,"Mrs Shamsa",NA,"Sohaib",NA
+"89",2017-01-28,85,"06:45 PM",NA,"F","Dr Irfan","General Surgeon",NA,3000,3000,NA,"Mrs Shamsa",NA,"Sohaib",NA
+"90",2017-01-28,147,"09:45 PM",9,"M","Nursing Staff",NA,"Consultation",1000,1000,NA,"Mrs Shamsa",NA,"Sub KB",NA
+"91",2017-01-29,1,NA,NA,NA,"Nursing Staff",NA,"Pharmacy",NA,NA,NA,NA,NA,NA,NA
+"92",2017-01-30,140,"01:00 PM",28,"F","Dr Alaf Khan","Dentist","Consultation",500,500,NA,"Dr Ammad",500,"Haris",NA
+"93",2017-01-30,39,"01:30 PM",47,"M","Dr Alaf Khan","Dentist","X Ray",300,300,NA,"Dr Ammad",300,"Haris",NA
+"94",2017-01-30,124,"05:40 PM",49,"F","Brig Asif","Medical Specialist","Consultation+ECG",1300,1300,NA,"Dr Ammad",600,"Sohaib",NA
+"95",2017-01-30,8,"05:35 PM",19,"M","Dr Qurat ul Ain","Dentist","Consultation+X Ray",800,800,NA,"Dr Ammad",800,"Sohaib",NA
+"96",2017-01-30,51,"06:00 PM",31,"M","Dr Qurat ul Ain","Dentist","Consultation",500,500,NA,"Dr Ammad",500,"Sohaib",NA
+"97",2017-01-31,152,"05:30 PM",7,"F","Dr Fakiha","Dentist","Filling",1000,1000,NA,"Mrs Shamsa",1000,"Haris",NA
+"98",2017-01-31,21,"06:30 PM",26,"M","Dr Zubair","M/o","Consultation",200,200,NA,"Mrs Shamsa",200,"Mona",NA
+"99",2017-01-31,115,"06:50 PM",8,"F","Dr Qurat ul Ain","Dentist","Extraction",1500,1500,NA,"Mrs Shamsa",1500,"Haris",NA
+"100",2017-02-01,109,"02:10 PM",28,"F","Dr Alaf Khan","Dentist","R.C.T",2000,2000,NA,"Dr Ammad",2000,"Haris","2/6/2017"
+"101",2017-02-01,153,"02:10 PM",17,"F","Dr Alaf Khan","Dentist","Orthodontics",10000,10000,NA,"Dr Ammad",10000,"Haris","2/6/2017"
+"102",2017-02-01,62,"01:00 PM",54,"M","Dr Alaf Khan","Dentist","Scalling",2000,2000,NA,"Dr Ammad",2000,"Haris",NA
+"103",2017-02-01,111,"01:40 PM",35,"F","Col Ulfat Ellahi","ENT","Consultation",1000,1000,NA,"Dr Ammad",300,"Haris",NA
+"104",2017-02-01,142,"06:00 PM",45,"M","Dr Qurat ul Ain","Dentist","Extraction",2000,2000,NA,"Dr Ammad",2000,"Haris",NA
+"105",2017-02-02,117,"12:00 PM",30,"F","Dr Shireen","M/o","Consultation",500,500,NA,"Dr Ammad",500,"Haris",NA
+"106",2017-02-02,140,"01:00 PM",30,"F","Dr Alaf Khan","Dentist","Extraction",1000,1000,NA,"Dr Ammad",1000,"Haris",NA
+"107",2017-02-02,100,"01:25 PM",23,"F","Dr Alaf Khan","Dentist","Consultation",500,500,NA,"Dr Ammad",500,"Haris",NA
+"108",2017-02-03,133,"04:45 PM",27,"F","Dr Alaf Khan","Dentist","X Ray",500,500,NA,"Dr Ammad",500,"Haris",NA
+"109",2017-02-03,44,"08:00 PM",6,"M","Dr Ali","Child Specialist","Consultation",1000,1000,NA,"Dr Ammad",300,"Haris",NA
+"110",2017-02-04,35,"04:00 PM",2,"F","Dr Qurat ul Ain","Dentist","Consultation",500,500,NA,"Dr Ammad",500,"Haris",NA
+"111",2017-02-04,150,"04:00 PM",30,"M","Dr Qurat ul Ain","Dentist","Consultation",500,500,NA,"Dr Ammad",500,"Haris",NA
+"112",2017-02-06,118,"07:30 PM",32,"F","Dr Kinza Alam","Gynae","Consultation+USG",1500,1500,NA,"Dr Ammad",800,"Haris",NA
+"113",2017-02-06,114,"07:45 PM",25,"F","Dr Kinza Alam","Gynae","Consultation",1000,1000,NA,"Dr Ammad",300,"Haris",NA
+"114",2017-02-06,49,"01:30 PM",80,"M","Dr Ali","Child Specialist","Consultation+Retain",3500,3500,NA,"Dr Ammad",2000,"Haris",NA
+"115",2017-02-06,126,"01:30 PM",70,"F","Dr Alaf Khan","Dentist","Scalling",3000,3000,NA,"Dr Ammad",3000,"Haris",NA
+"116",2017-02-06,141,"04:00 PM",20,"M","Dr Riffat Naheed","Psychotherapist","Consultation",2000,2000,NA,"Dr Ammad",600,"Haris",NA
+"117",2017-02-06,17,"06:15 PM",23,"M","Dr Ammad","M/o","Consultation",200,200,NA,"Dr Ammad",200,"Haris",NA
+"118",2017-02-07,12,"12:00 PM",60,"F","Dr Alaf Khan","Dentist","22 Unit Bridge",44000,30000,14000,"Dr Ammad",30000,"Haris","2/14/2017"
+"119",2017-02-07,60,"01:10 PM",50,"M","Dr Alaf Khan","Dentist","Consultation",500,500,NA,"Dr Ammad",500,"Haris",NA
+"120",2017-02-07,140,"02:15 PM",30,"F","Dr Alaf Khan","Dentist","4 Unit Bridge",3000,3000,NA,"Dr Ammad",3000,"Haris",NA
+"121",2017-02-07,41,"06:00 PM",13,"M","Dr Qurat ul Ain","Dentist","X Ray",500,500,NA,"Dr Ammad",500,"Haris",NA
+"122",2017-02-07,87,"08:00 PM",30,"F","Dr Qurat ul Ain","Dentist","Consultation",500,500,NA,"Dr Ammad",500,"Haris",NA
+"123",2017-02-08,132,"10:13 AM",13,"M","Dr Alaf Khan","Dentist","Consultation",500,500,NA,"Dr Ammad",500,"Haris","2/17/2017"
+"124",2017-02-08,132,"12:00 PM",13,"M","Dr Alaf Khan","Dentist","R.C.T",3500,3500,NA,"Dr Ammad",3500,"Haris",NA
+"125",2017-02-08,13,"12:00 PM",39,"F","Dr Saad","Orthopedic","Consultation",1000,1000,NA,"Dr Ammad",300,"Haris",NA
+"126",2017-02-08,109,"02:40 PM",28,"F","Dr Alaf Khan","Dentist","R.C.T",2000,2000,NA,"Dr Ammad",2000,"Haris",NA
+"127",2017-02-08,109,"02:40 PM",28,"F","Dr Alaf Khan","Dentist","Crown",3000,NA,3000,"Dr Ammad",NA,"Haris","2/16/2017"
+"128",2017-02-08,153,"02:40 PM",17,"F","Dr Alaf Khan","Dentist","Orthodontics",110000,20000,90000,"Dr Ammad",20000,"Haris","2/16/2017"
+"129",2017-02-08,43,"10:00 AM",27,"M","Dr Alaf Khan","Dentist","Consultation+X Ray",800,800,NA,"Dr Ammad",800,"Haris","2/9/2017"
+"130",2017-02-10,5,"09:30 AM",57,"M","Dr Alaf Khan","Dentist","X Ray",300,300,NA,"Dr Ammad",300,"Haris",NA
+"131",2017-02-10,14,"06:30 PM",6,"M","Nursing Staff",NA,"X Ray",300,300,NA,"Dr Ammad",300,"Haris",NA
+"132",2017-02-10,123,"07:00 PM",18,"M","Dr Qurat ul Ain","Dentist","Filling",1500,1500,NA,"Dr Ammad",1500,"Haris",NA
+"133",2017-02-11,137,"12:00 PM",25,"M","Dr Ali","Child Specialist","Consultation",1000,1000,NA,"Mrs Shamsa",300,"Mona",NA
+"134",2017-02-11,91,"04:20 PM",50,"F","Dr Qurat ul Ain","Dentist","Scalling",2500,2500,NA,"Mrs Shamsa",2500,"Mona",NA
+"135",2017-02-11,23,"05:57 PM",NA,"F","Dr Qurat ul Ain","Dentist","Consultation",1000,1000,NA,"Mrs Shamsa",1000,"Mona",NA
+"136",2017-02-11,154,"06:15 PM",19,"F","Dr Qurat ul Ain","Dentist","Scalling",2000,2000,NA,"Mrs Shamsa",2000,"Mona",NA
+"137",2017-02-12,112,"07:15 PM",39,"M","Dr Saad","Orthopedic","Operation",35000,35000,NA,"Mrs Shamsa",35000,"Haris",NA
+"138",2017-02-12,81,"12:00 PM",6,"F","Dr Alaf Khan","Dentist","Consultation+X Ray",700,700,NA,"Mrs Shamsa",700,"Mona",NA
+"139",2017-02-13,15,"11:20 AM",40,"M","Dr Waqar Azeem","Radiologist","USG Abdomen",1000,1000,NA,"Dr Ammad",300,"Haris",NA
+"140",2017-02-13,112,"03:40 PM",39,"M","Dr Saad","Orthopedic","Operation",15000,15000,NA,"Dr Ammad",15000,"Haris",NA
+"141",2017-02-13,9,"07:00 PM",20,"F","Dr Qurat ul Ain","Dentist","Consultation",500,500,NA,"Dr Ammad",500,"Haris",NA
+"142",2017-02-13,2,NA,NA,NA,"Dr Ali","Child Specialist","Consultation",1500,1500,NA,"Dr Ammad",500,"Haris",NA
+"143",2017-02-14,113,"02:30 PM",14,"M","Dr Saad Riaz","Orthopedic","Pop",3700,3700,NA,"Dr Ammad",1700,"Haris",NA
+"144",2017-02-14,4,"03:00 PM",NA,"M","Nursing Staff",NA,"Er Retain",300,300,NA,"Dr Ammad",300,"Haris",NA
+"145",2017-02-14,19,"07:02 PM",6,"F","Dr Waqar Azeem","Radiologist","USG",2000,2000,NA,"Dr Ammad",1300,"Haris",NA
+"146",2017-02-15,118,"11:40 AM",24,"F","Dr Alaf Khan","Dentist","X Ray",400,400,NA,"Mrs Shamsa",400,"Mona",NA
+"147",2017-02-15,94,"04:45 PM",3,"M","Dr Ali","Child Specialist","Consultation + Nebulize",1150,1150,NA," 150 Mrs Shamsa, 300 Dr Ammad ",450,"Haris",NA
+"148",2017-02-15,64,"06:15 PM",23,"M","Dr Ammad","M/o","Consultation",200,200,NA,"Dr Ammad",200,"Haris",NA
+"149",2017-02-17,29,"04:10 PM",29,"M","Dr Alaf Khan","Dentist","X Ray",200,200,NA,"Dr Ammad",200,"Haris",NA
+"150",2017-02-17,66,"05:30 PM",55,"M","Dr Alaf Khan","Dentist","Extraction",1000,1000,NA,"Dr Ammad",1000,"Haris",NA
+"151",2017-02-17,107,"06:30 PM",30,"F","Nursing Staff",NA,"X Ray",1000,1000,NA,"Dr Ammad",1000,"Haris",NA
+"152",2017-02-18,108,"06:20 PM",NA,"M","Dr Ali","Child Specialist","Consultation",3000,3000,NA,"Dr Ammad",1600,"Saima",NA
+"153",2017-02-18,30,"06:10 PM",30,"F","Dr Qurat ul Ain","Dentist","Extraction",1500,1500,NA,"Dr Ammad",1500,"Mona",NA
+"154",2017-02-18,94,"11:30 AM",3,"M","Nursing Staff",NA,"Injection",300,300,NA,"Dr Ammad",300,"Saima",NA
+"155",2017-02-19,55,"02:45 PM",NA,"M","Dr Qurat ul Ain","Dentist","X Ray",300,300,NA,"Dr Ammad",300,"Saima",NA
+"156",2017-02-20,132,NA,13,"M","Dr Alaf Khan","Dentist","Crown",5000,5000,NA,"Dr Ammad",5000,NA,"2/24/2017"
+"157",2017-02-20,68,"01:25 PM",10,"M","Dr Shireen","M/o","Stiches",700,700,NA,"Dr Ammad",700,"Saima",NA
+"158",2017-02-20,80,"02:00 PM",30,"F","Dr Shireen","M/o","Consultation",1200,1200,NA,"Dr Ammad",1200,"Saima",NA
+"159",2017-02-20,99,"07:00 PM",45,"F","Dr Saima Shams","Radiologist","USG",1500,1500,NA,"Dr Ammad",900,"Mona",NA
+"160",2017-02-20,94,"10:15 PM",3,"M","Nursing Staff",NA,"Injection",300,300,NA,"Dr Ammad",300,"Ashfaq",NA
+"161",2017-02-21,151,"01:00 PM",38,"M","Dr Alaf Khan","Dentist","R.C.T+Scalling+Crown",5000,5000,NA,"Dr Ammad",5000,"Saima","2/28/2017"
+"162",2017-02-21,53,"06:00 PM",20,"F","Dr Waqar Azeem","Radiologist","USG",1000,1000,NA,"Dr Ammad",400,"Mona",NA
+"163",2017-02-21,11,"07:11 PM",2,"F","Dr Ali","Child Specialist","Consultation",1000,1000,NA,"Dr Ammad",300,"Saima",NA
+"164",2017-02-21,94,"10:10 PM",3,"M","Nursing Staff",NA,"Injection",300,300,NA,"Dr Ammad",300,"Sub KB",NA
+"165",2017-02-21,64,NA,NA,NA,"Nursing Staff",NA,"Medicine",100,100,NA,NA,100,"Saima",NA
+"166",2017-02-22,100,"03:00 PM",23,"F","Dr Alaf Khan","Dentist","Orthodontics",120000,30000,90000,"Dr Ammad",30000,"Mona",NA
+"167",2017-02-22,16,"04:30 PM",26,"M","Dr Mumtaz","General Surgeon","Consultation",1000,1000,NA,"Dr Ammad",500,"Mona",NA
+"168",2017-02-22,6,"05:00 PM",35,"M","Dr Waqar Azeem","Radiologist","USG",1000,1000,NA,"Dr Ammad",400,"Mona",NA
+"169",2017-02-23,33,"01:55 PM",22,"M","Dr Alaf Khan","Dentist","R.C.T",3000,3000,NA,"Dr Ammad",3000,"Saima",NA
+"170",2017-02-23,89,"01:50 PM",65,"F","Dr Saad Riaz","Orthopedic","Consultation",1000,1000,NA,"Dr Ammad",500,"Saima",NA
+"171",2017-02-23,13,"02:00 PM",45,"F","Dr Saad Riaz","Orthopedic","Consultation",1000,1000,NA,"Dr Ammad",300,"Saima",NA
+"172",2017-02-23,47,"03:00 PM",21,"F","Dr Riffat Naheed","Psychotherapist","Consultation",1500,1500,NA,"Dr Ammad",700,"Saima",NA
+"173",2017-02-24,80,"09:30 PM",30,"F","Dr Mehwish","Gynae","Consultation",1000,1000,NA,"Dr Ammad",500,"Saima",NA
+"174",2017-02-25,128,"03:45 PM",64,"F","Dr Qurat ul Ain","Dentist","Consultation",500,500,NA,"Dr Ammad",500,"Saima",NA
+"175",2017-02-25,93,"04:00 PM",40,"F","Dr Ali","Child Specialist",NA,3000,3000,NA,"Dr Ammad",1600,"Saima",NA
+"176",2017-02-27,143,"11:30 AM",52,"F","Dr Alaf Khan","Dentist","Consultation",500,500,NA,"Dr Ammad",500,"Saima",NA
+"177",2017-02-27,56,"12:20 PM",55,"F","Dr Alaf Khan","Dentist","Extraction",600,600,NA,"Dr Ammad",600,"Saima",NA
+"178",2017-02-27,96,NA,54,"M","Dr Qurat ul Ain","Dentist","Consultation",500,500,NA,"Dr Ammad",500,"Saima",NA
+"179",2017-02-28,65,"10:30 PM",30,"M","Nursing Staff",NA,"BSR",50,50,NA,"Dr Ammad",50,"Haris",NA
+"180",2017-02-28,96,"12:40 PM",53,"M","Dr Alaf Khan","Dentist","8 Unit Bridge+2 R.C.T",30000,8000,22000,"Dr Ammad",8000,"Haris",NA
+"181",2017-02-28,90,NA,NA,"F","Dr Alaf Khan","Dental","Consultation",1000,1000,NA,"Dr Ammad",1000,"Saima",NA
+"182",2017-02-28,151,"03:00 PM",38,"F","Dr Alaf Khan","Dentist","R.C.T+Scalling+Crown",4500,4500,NA,"Dr Ammad",4500,"Haris",NA
+"183",2017-02-28,139,"08:00 PM",30,"M","Nursing Staff",NA,"X Ray",500,500,NA,"Dr Ammad",500,"Saima",NA
+"184",2017-03-01,107,"05:00 PM",17,"F","Dr Qurat ul Ain","Dentist","Extraction",1500,1500,NA,"Dr Ammad",1500,"Saima",NA
+"185",2017-03-01,28,"06:00 PM",3,"F","Dr Qurat ul Ain","Dentist","Consultation",500,500,NA,"Dr Ammad",500,"Saima",NA
+"186",2017-03-01,46,NA,17,"M","Nursing Staff",NA,"Dressing",500,500,NA,"Dr Ammad",200,"Saima",NA
+"187",2017-03-01,25,"07:00 PM",NA,"F","Dr Kinza Alam","Gynae","Consultation",1500,1500,NA,"Dr Ammad",500,"Saima",NA
+"188",2017-03-01,24,"07:10 PM",NA,"M","Dr Ammad","M/o","Consultation",500,500,NA,"Dr Ammad",500,"Saima",NA
+"189",2017-03-02,140,"12:48 PM",30,"F","Dr Alaf Khan","Dentist","4 Unit Bridge",8000,8000,NA,"Dr Ammad",8000,"Saima",NA
+"190",2017-03-02,46,"03:00 PM",17,"M","Nursing Staff",NA,"Injection",50,50,NA,"Dr Ammad",50,"Saima",NA
+"191",2017-03-02,114,"07:05 PM",26,"F","Dr Kinza Alam","Gynae","Consultation",1000,1000,NA,"Dr Ammad",300,"Saima",NA
+"192",2017-03-02,3,NA,NA,NA,"Nursing Staff",NA,"Dressing",100,100,NA,"Dr Ammad",100,"Saima",NA
+"193",2017-03-03,138,"11:20 AM",45,"F","Dr Alaf Khan","Dentist","Consultation",500,500,NA,"Dr Ammad",500,"Saima",NA
+"194",2017-03-03,107,"12:30 PM",17,"F","Dr Alaf Khan","Dentist","R.C.T+Crown",8000,8000,NA,"Dr Ammad",8000,"Saima","3/9/2017"
+"195",2017-03-03,34,"01:30 PM",22,"M","Dr Alaf Khan","Dentist","Crown",2000,2000,NA,"Dr Ammad",2000,"Saima","3/8/2017"
+"196",2017-03-03,133,"04:10 PM",30,"F","Dr Ali","Child Specialist","Consultation",1000,1000,NA,"Dr Ammad",300,"Saima",NA
+"197",2017-03-03,46,"05:45 PM",17,"M","Nursing Staff",NA,"Dressing",300,300,NA,"Dr Ammad",300,"Saima",NA
+"198",2017-03-03,74,"02:40 PM",38,"M","Dr Waqar Azeem","Radiologist","USG KUB",1000,1000,NA,"Dr Ammad",300,"Sub KB",NA
+"199",2017-03-05,46,NA,17,"M","Nursing Staff",NA,"Dressing",300,300,NA,"Dr Ammad",200,"Saima",NA
+"200",2017-03-06,83,"01:20 PM",34,"M","Dr Alaf Khan","Dentist","Consultation",500,500,NA,"Dr Ammad",500,"Saima",NA
+"201",2017-03-06,61,"05:30 PM",28,"F","Dr Qurat ul Ain","Dentist","Consultation+X Ray",950,950,NA,"Dr Ammad",950,"Haris",NA
+"202",2017-03-06,122,"07:00 PM",78,"M","Nursing Staff",NA,"Injection",100,100,NA,"Dr Ammad",100,"Saima",NA
+"203",2017-03-07,95,NA,56,"M","Dr Alaf Khan","Dentist","X Ray",300,300,NA,"Dr Ammad",300,"Saima",NA
+"204",2017-03-07,69,"03:00 PM",53,"M","Dr Alaf Khan","Dentist",NA,15000,15000,NA,"Dr Ammad",15000,"Mona",NA
+"205",2017-03-07,146,NA,21,"M","Dr Ammad","M/o","Consultation",500,500,NA,"Dr Ammad",500,"Saima",NA
+"206",2017-03-07,46,"07:40 PM",17,"M","Nursing Staff",NA,"Dressing",200,200,NA,"Dr Ammad",200,"Saima",NA
+"207",2017-03-07,32,"02:00 PM",NA,"F","Nursing Staff",NA,"Coupety",300,300,NA,"Dr Ammad",300,"Saima",NA
+"208",2017-03-07,122,"09:35 PM",78,"M","Nursing Staff",NA,"Injection",100,100,NA,"Dr Ammad",100,"Sub KB",NA
+"209",2017-03-08,148,"08:30 PM",3,"F","Nursing Staff",NA,"Injection",100,100,NA,"Dr Ammad",100,"Ashfaq",NA
+"210",2017-03-08,122,"10:00 PM",76,"M","Nursing Staff",NA,"Injection",100,100,NA,"Dr Ammad",100,"Ashfaq",NA
+"211",2017-03-08,10,"04:45 PM",9,"F","Dr Qurat ul Ain","Dentist","Consultation+x Ray",650,650,NA,"Dr Ammad",650,"Saima",NA
+"212",2017-03-08,76,"06:55 PM",32,"M","Dr Paul","Dermatologist","Consultation",1500,1000,500,"Dr Ammad",300,"Mona",NA
+"213",2017-03-08,1,"12:00 PM",NA,"F","Nursing Staff",NA,"Injection",150,150,NA,"Dr Ammad",150,"Mona",NA
+"214",2017-03-08,25,"07:30 PM",NA,"F","Dr Kinza Alam","Gynae","Consultation",1500,1500,NA,"Dr Ammad",500,"Mona",NA
+"215",2017-03-09,77,"12:00 PM",24,"M","Dr Alaf Khan","Dentist","R.C.T",5000,2000,3000,"Dr Ammad",2000,"Haris","3/16/2017"
+"216",2017-03-09,121,"09:00 AM",3,"F","Nursing Staff",NA,"Injection",100,100,NA,"Dr Ammad",100,"Mona",NA
+"217",2017-03-09,122,NA,76,"M","Nursing Staff",NA,"Injection",100,100,NA,"Dr Ammad",100,"Mona",NA
+"218",2017-03-09,1,NA,NA,NA,"Nursing Staff",NA,NA,NA,NA,NA,"Dr Ammad",NA,"Saima",NA
+"219",2017-03-09,18,"03:30 PM",39,"M","Dr Alaf Khan","Dentist","Scalling+Polishing",4000,4000,NA,"Dr Ammad",4000,"Saima",NA
+"220",2017-03-09,110,"06:00 PM",30,"M","Dr Qurat ul Ain","Dentist","Consultation",200,200,NA,"Dr Ammad",200,"Saima",NA
+"221",2017-03-10,122,"10:20 AM",76,"M","Nursing Staff",NA,"Injection",100,100,NA,"Dr Ammad",100,"Zaheer",NA
+"222",2017-03-10,105,"11:20 PM",45,"F","Dr Shireen","M/o","Consultation",800,800,NA,"Dr Ammad",800,"Mona",NA
